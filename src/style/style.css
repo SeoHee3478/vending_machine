@@ -1,0 +1,85 @@
+body {
+    background-color: #EAE8FE;
+}
+
+header {
+    text-align: center;
+}
+
+.logo_img {
+    width: 386px;
+}
+
+.contents {
+    width: 748px;
+    margin: 68px auto;
+    display: grid;
+    grid-template-columns: 360px 360px;
+    grid-template-rows: 50px 474px;
+    gap: 20px 28px;
+}
+
+.box {
+    background-color: white;
+}
+
+.sale {
+    width: 360px;
+    padding: 31px 27px 28px 27px;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: repeat(3, 94px);
+    grid-template-rows: 130px 130px 32px 32px 106px;
+    gap: 10px;
+}
+
+.drink:before {
+    content: "";
+    width: 36px;
+    height: 65px;
+    float: left;
+    margin-top: -30px;
+    margin-left: 29px;
+    background-color: black;
+}
+
+.drink {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
+
+}
+
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+
+
+
+.balance {
+    grid-column: 1/3;
+}
+
+.deposit {
+    grid-column: 1/3;
+}
+
+.show {
+    grid-column: 1/3;
+}
+
+.pocket_money {}
+
+.acquired_drink {}
